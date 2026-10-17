@@ -1,0 +1,16 @@
+{
+  "format": "CounterForge-v1",
+  "expression": [
+    "div",
+    [
+      "add",
+      "x",
+      [
+        "sub",
+        "y",
+        1
+      ]
+    ],
+    "y"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "format": "CounterForge-v1",
+  "expression": [
+    "div",
+    "x",
+    "y"
+  ]
+}

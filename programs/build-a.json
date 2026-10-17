@@ -1,0 +1,16 @@
+{
+  "format": "CounterForge-v1",
+  "expression": [
+    "add",
+    [
+      "min",
+      "x",
+      1000000
+    ],
+    [
+      "min",
+      "y",
+      1000000
+    ]
+  ]
+}

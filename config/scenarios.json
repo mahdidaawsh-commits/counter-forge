@@ -1,0 +1,63 @@
+{
+  "a": {
+    "name": "a",
+    "reference_file": "spec-a.json",
+    "candidate_file": "build-a.json",
+    "bounds": [
+      0,
+      1000000,
+      0,
+      1000000
+    ],
+    "budget": 2,
+    "witness": [
+      1000000,
+      1
+    ]
+  },
+  "b": {
+    "name": "b",
+    "reference_file": "spec-b.json",
+    "candidate_file": "build-b.json",
+    "bounds": [
+      0,
+      1000000000,
+      0,
+      1000000000
+    ],
+    "budget": 1,
+    "witness": [
+      0,
+      0
+    ]
+  },
+  "c": {
+    "name": "c",
+    "reference_file": "spec-c.json",
+    "candidate_file": "build-c.json",
+    "bounds": [
+      0,
+      1000000000,
+      1,
+      1000000000
+    ],
+    "budget": 1,
+    "witness": [
+      1,
+      2
+    ]
+  },
+  "d": {
+    "name": "d",
+    "reference_file": "spec-d.json",
+    "candidate_file": "build-d.json",
+    "bounds": [
+      0,
+      1000000000,
+      0,
+      1000000000
+    ],
+    "budget": 2,
+    "witness": null
+  }
+}
