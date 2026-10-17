@@ -1,0 +1,191 @@
+[
+  {
+    "name": "a",
+    "contract": "0x9701B7C4C32E583d03c08B92C19209798C6A9577",
+    "transaction": "0x3deb51ea858c02356f45df624bf869ce4ac05bc2f385d99e51d291e730866b6c",
+    "reference": {
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/spec-a.json",
+      "sha256": "1fdd0a5587825be5d6f2c3d89f17e440cfc67125d08d541bd813569e568228d5",
+      "text": "{\n  \"format\": \"CounterForge-v1\",\n  \"expression\": [\n    \"min\",\n    [\n      \"add\",\n      \"x\",\n      \"y\"\n    ],\n    1000000\n  ]\n}\n",
+      "expression": [
+        "min",
+        [
+          "add",
+          "x",
+          "y"
+        ],
+        1000000
+      ]
+    },
+    "candidate": {
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/build-a.json",
+      "sha256": "47d35c48aba8b9553a39835fbda62c0d8a3d2cfd04035c608f3c77f32a84da2d",
+      "text": "{\n  \"format\": \"CounterForge-v1\",\n  \"expression\": [\n    \"add\",\n    [\n      \"min\",\n      \"x\",\n      1000000\n    ],\n    [\n      \"min\",\n      \"y\",\n      1000000\n    ]\n  ]\n}\n",
+      "expression": [
+        "add",
+        [
+          "min",
+          "x",
+          1000000
+        ],
+        [
+          "min",
+          "y",
+          1000000
+        ]
+      ]
+    },
+    "bounds": [
+      0,
+      1000000,
+      0,
+      1000000
+    ],
+    "budget": 2,
+    "fixture_revision": "75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea",
+    "source_sha256": "eff012c9af0647b9033a9b731df6029edba267545f1528f3c5341d68ad9cede2",
+    "network": "studionet",
+    "chain_id": 61999,
+    "callers": [
+      "0xf0d223c99c7ac371e2c15ad68ceb1f01925a7d34",
+      "0x7aa4f3f14d43cce626788e223c8cc2842e0214c3"
+    ]
+  },
+  {
+    "name": "b",
+    "contract": "0xaE103447b7e9C29c07d3F67140Ac44D03F1590fd",
+    "transaction": "0xe005f5ee8fe0e3a9e5f3d94a72e5c17b6768dd1641153a13c4460e7663fd07f8",
+    "reference": {
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/spec-b.json",
+      "sha256": "00108d7b76d3f4ab3ba7f79d634d399b7ce05cc27842f3b54ecb7e96e4d5d3aa",
+      "text": "{\n  \"format\": \"CounterForge-v1\",\n  \"expression\": [\n    \"if\",\n    [\n      \"eq\",\n      \"y\",\n      0\n    ],\n    0,\n    [\n      \"div\",\n      \"x\",\n      \"y\"\n    ]\n  ]\n}\n",
+      "expression": [
+        "if",
+        [
+          "eq",
+          "y",
+          0
+        ],
+        0,
+        [
+          "div",
+          "x",
+          "y"
+        ]
+      ]
+    },
+    "candidate": {
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/build-b.json",
+      "sha256": "d04a84083edd645cb9ad6f7f01ff478264d8b4fe99d74f2684565a64a58bda9e",
+      "text": "{\n  \"format\": \"CounterForge-v1\",\n  \"expression\": [\n    \"div\",\n    \"x\",\n    \"y\"\n  ]\n}\n",
+      "expression": [
+        "div",
+        "x",
+        "y"
+      ]
+    },
+    "bounds": [
+      0,
+      1000000000,
+      0,
+      1000000000
+    ],
+    "budget": 1,
+    "fixture_revision": "75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea",
+    "source_sha256": "eff012c9af0647b9033a9b731df6029edba267545f1528f3c5341d68ad9cede2",
+    "network": "studionet",
+    "chain_id": 61999,
+    "callers": [
+      "0xf0d223c99c7ac371e2c15ad68ceb1f01925a7d34",
+      "0x7aa4f3f14d43cce626788e223c8cc2842e0214c3"
+    ]
+  },
+  {
+    "name": "c",
+    "contract": "0xf064a743787993Be5F05A2430506CA8869a9Fe33",
+    "transaction": "0x60b2b6b271e437a60e6ddb08bc13a9b33799e0e300e1d5e4f2bfc537047f37e1",
+    "reference": {
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/spec-c.json",
+      "sha256": "947648964c107dab6b81a9584df05eda7122b5d7a725f216f3c137c2f2bc07e0",
+      "text": "{\n  \"format\": \"CounterForge-v1\",\n  \"expression\": [\n    \"div\",\n    [\n      \"add\",\n      \"x\",\n      [\n        \"sub\",\n        \"y\",\n        1\n      ]\n    ],\n    \"y\"\n  ]\n}\n",
+      "expression": [
+        "div",
+        [
+          "add",
+          "x",
+          [
+            "sub",
+            "y",
+            1
+          ]
+        ],
+        "y"
+      ]
+    },
+    "candidate": {
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/build-c.json",
+      "sha256": "d04a84083edd645cb9ad6f7f01ff478264d8b4fe99d74f2684565a64a58bda9e",
+      "text": "{\n  \"format\": \"CounterForge-v1\",\n  \"expression\": [\n    \"div\",\n    \"x\",\n    \"y\"\n  ]\n}\n",
+      "expression": [
+        "div",
+        "x",
+        "y"
+      ]
+    },
+    "bounds": [
+      0,
+      1000000000,
+      1,
+      1000000000
+    ],
+    "budget": 1,
+    "fixture_revision": "75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea",
+    "source_sha256": "eff012c9af0647b9033a9b731df6029edba267545f1528f3c5341d68ad9cede2",
+    "network": "studionet",
+    "chain_id": 61999,
+    "callers": [
+      "0xf0d223c99c7ac371e2c15ad68ceb1f01925a7d34",
+      "0x7aa4f3f14d43cce626788e223c8cc2842e0214c3"
+    ]
+  },
+  {
+    "name": "d",
+    "contract": "0xC07e633c37802c774835B656716a30a74295455F",
+    "transaction": "0x7dc6d84eef4d3b55f8cf7daf5b16389d2ec52857bcb451a684045f21365cb5fb",
+    "reference": {
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/spec-d.json",
+      "sha256": "fc4baaa77db67f9a78d58f9f7b8d72e61300a2e22160e35d973b2ec9a7f468e6",
+      "text": "{\n  \"format\": \"CounterForge-v1\",\n  \"expression\": [\n    \"add\",\n    \"x\",\n    \"y\"\n  ]\n}\n",
+      "expression": [
+        "add",
+        "x",
+        "y"
+      ]
+    },
+    "candidate": {
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/build-d.json",
+      "sha256": "14b81897e32fbdcdb17f84b9efdda397482ee954dc473a2ef413d52a7f10b381",
+      "text": "{\n  \"format\": \"CounterForge-v1\",\n  \"expression\": [\n    \"add\",\n    \"y\",\n    \"x\"\n  ]\n}\n",
+      "expression": [
+        "add",
+        "y",
+        "x"
+      ]
+    },
+    "bounds": [
+      0,
+      1000000000,
+      0,
+      1000000000
+    ],
+    "budget": 2,
+    "fixture_revision": "75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea",
+    "source_sha256": "eff012c9af0647b9033a9b731df6029edba267545f1528f3c5341d68ad9cede2",
+    "network": "studionet",
+    "chain_id": 61999,
+    "callers": [
+      "0xf0d223c99c7ac371e2c15ad68ceb1f01925a7d34",
+      "0x7aa4f3f14d43cce626788e223c8cc2842e0214c3"
+    ]
+  }
+]

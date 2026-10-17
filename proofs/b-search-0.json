@@ -1,0 +1,202 @@
+{
+  "contract": "0xaE103447b7e9C29c07d3F67140Ac44D03F1590fd",
+  "transaction": "0x1719dca70f4022fe18800222a3874f5d7979b30a84951d7d17b288492f7b9327",
+  "sender": "0xf0d223c99c7ac371e2c15ad68ceb1f01925a7d34",
+  "success": true,
+  "reason": null,
+  "method": "discover",
+  "index": 0,
+  "state_before": {
+    "attempts": 0,
+    "best": null,
+    "bounds": [
+      0,
+      1000000000,
+      0,
+      1000000000
+    ],
+    "budget": 1,
+    "candidate_hash": "d04a84083edd645cb9ad6f7f01ff478264d8b4fe99d74f2684565a64a58bda9e",
+    "candidate_url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/build-b.json",
+    "records": [],
+    "reference_hash": "00108d7b76d3f4ab3ba7f79d634d399b7ce05cc27842f3b54ecb7e96e4d5d3aa",
+    "reference_url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/spec-b.json",
+    "sources": null,
+    "status": "SEARCHING_NO_WITNESS"
+  },
+  "state": {
+    "attempts": 1,
+    "best": {
+      "candidate": {
+        "code": "DIV_ZERO",
+        "kind": "ERROR"
+      },
+      "diverges": true,
+      "inputs": [
+        0,
+        0
+      ],
+      "rank": [
+        0,
+        0,
+        0
+      ],
+      "reference": {
+        "kind": "VALUE",
+        "value": "0"
+      }
+    },
+    "bounds": [
+      0,
+      1000000000,
+      0,
+      1000000000
+    ],
+    "budget": 1,
+    "candidate_hash": "d04a84083edd645cb9ad6f7f01ff478264d8b4fe99d74f2684565a64a58bda9e",
+    "candidate_url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/build-b.json",
+    "records": [
+      {
+        "attempt": 0,
+        "caller": "0xf0d223c99c7ac371e2c15ad68ceb1f01925a7d34",
+        "improvement": {
+          "candidate": {
+            "code": "DIV_ZERO",
+            "kind": "ERROR"
+          },
+          "diverges": true,
+          "inputs": [
+            0,
+            0
+          ],
+          "rank": [
+            0,
+            0,
+            0
+          ],
+          "reference": {
+            "kind": "VALUE",
+            "value": "0"
+          }
+        },
+        "incumbent": {
+          "candidate": {
+            "code": "DIV_ZERO",
+            "kind": "ERROR"
+          },
+          "diverges": true,
+          "inputs": [
+            0,
+            0
+          ],
+          "rank": [
+            0,
+            0,
+            0
+          ],
+          "reference": {
+            "kind": "VALUE",
+            "value": "0"
+          }
+        },
+        "tested": [
+          {
+            "candidate": {
+              "code": "DIV_ZERO",
+              "kind": "ERROR"
+            },
+            "diverges": true,
+            "inputs": [
+              0,
+              0
+            ],
+            "rank": [
+              0,
+              0,
+              0
+            ],
+            "reference": {
+              "kind": "VALUE",
+              "value": "0"
+            }
+          },
+          {
+            "candidate": {
+              "code": "DIV_ZERO",
+              "kind": "ERROR"
+            },
+            "diverges": true,
+            "inputs": [
+              1,
+              0
+            ],
+            "rank": [
+              1,
+              1,
+              0
+            ],
+            "reference": {
+              "kind": "VALUE",
+              "value": "0"
+            }
+          },
+          {
+            "candidate": {
+              "code": "DIV_ZERO",
+              "kind": "ERROR"
+            },
+            "diverges": true,
+            "inputs": [
+              1000000000,
+              0
+            ],
+            "rank": [
+              1000000000,
+              1000000000,
+              0
+            ],
+            "reference": {
+              "kind": "VALUE",
+              "value": "0"
+            }
+          }
+        ],
+        "verdict": "IMPROVED"
+      }
+    ],
+    "reference_hash": "00108d7b76d3f4ab3ba7f79d634d399b7ce05cc27842f3b54ecb7e96e4d5d3aa",
+    "reference_url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/spec-b.json",
+    "sources": [
+      {
+        "expression": [
+          "if",
+          [
+            "eq",
+            "y",
+            0
+          ],
+          0,
+          [
+            "div",
+            "x",
+            "y"
+          ]
+        ],
+        "sha256": "00108d7b76d3f4ab3ba7f79d634d399b7ce05cc27842f3b54ecb7e96e4d5d3aa",
+        "text": "{\n  \"format\": \"CounterForge-v1\",\n  \"expression\": [\n    \"if\",\n    [\n      \"eq\",\n      \"y\",\n      0\n    ],\n    0,\n    [\n      \"div\",\n      \"x\",\n      \"y\"\n    ]\n  ]\n}\n",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/spec-b.json"
+      },
+      {
+        "expression": [
+          "div",
+          "x",
+          "y"
+        ],
+        "sha256": "d04a84083edd645cb9ad6f7f01ff478264d8b4fe99d74f2684565a64a58bda9e",
+        "text": "{\n  \"format\": \"CounterForge-v1\",\n  \"expression\": [\n    \"div\",\n    \"x\",\n    \"y\"\n  ]\n}\n",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/build-b.json"
+      }
+    ],
+    "status": "MINIMAL_WITNESS"
+  }
+}

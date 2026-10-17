@@ -1,0 +1,18 @@
+{
+  "attempts": 0,
+  "best": null,
+  "bounds": [
+    0,
+    1000000,
+    0,
+    1000000
+  ],
+  "budget": 2,
+  "candidate_hash": "47d35c48aba8b9553a39835fbda62c0d8a3d2cfd04035c608f3c77f32a84da2d",
+  "candidate_url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/build-a.json",
+  "records": [],
+  "reference_hash": "1fdd0a5587825be5d6f2c3d89f17e440cfc67125d08d541bd813569e568228d5",
+  "reference_url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/spec-a.json",
+  "sources": null,
+  "status": "SEARCHING_NO_WITNESS"
+}

@@ -1,0 +1,274 @@
+{
+  "attempts": 1,
+  "best": {
+    "candidate": {
+      "kind": "VALUE",
+      "value": "0"
+    },
+    "diverges": true,
+    "inputs": [
+      1,
+      2
+    ],
+    "rank": [
+      3,
+      1,
+      2
+    ],
+    "reference": {
+      "kind": "VALUE",
+      "value": "1"
+    }
+  },
+  "bounds": [
+    0,
+    1000000000,
+    1,
+    1000000000
+  ],
+  "budget": 1,
+  "candidate_hash": "d04a84083edd645cb9ad6f7f01ff478264d8b4fe99d74f2684565a64a58bda9e",
+  "candidate_url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/build-c.json",
+  "records": [
+    {
+      "attempt": 0,
+      "caller": "0xf0d223c99c7ac371e2c15ad68ceb1f01925a7d34",
+      "improvement": {
+        "candidate": {
+          "kind": "VALUE",
+          "value": "0"
+        },
+        "diverges": true,
+        "inputs": [
+          1,
+          2
+        ],
+        "rank": [
+          3,
+          1,
+          2
+        ],
+        "reference": {
+          "kind": "VALUE",
+          "value": "1"
+        }
+      },
+      "incumbent": {
+        "candidate": {
+          "kind": "VALUE",
+          "value": "0"
+        },
+        "diverges": true,
+        "inputs": [
+          1,
+          2
+        ],
+        "rank": [
+          3,
+          1,
+          2
+        ],
+        "reference": {
+          "kind": "VALUE",
+          "value": "1"
+        }
+      },
+      "tested": [
+        {
+          "candidate": {
+            "kind": "VALUE",
+            "value": "0"
+          },
+          "diverges": false,
+          "inputs": [
+            0,
+            1
+          ],
+          "rank": [
+            1,
+            0,
+            1
+          ],
+          "reference": {
+            "kind": "VALUE",
+            "value": "0"
+          }
+        },
+        {
+          "candidate": {
+            "kind": "VALUE",
+            "value": "0"
+          },
+          "diverges": true,
+          "inputs": [
+            1,
+            2
+          ],
+          "rank": [
+            3,
+            1,
+            2
+          ],
+          "reference": {
+            "kind": "VALUE",
+            "value": "1"
+          }
+        },
+        {
+          "candidate": {
+            "kind": "VALUE",
+            "value": "1"
+          },
+          "diverges": false,
+          "inputs": [
+            2,
+            2
+          ],
+          "rank": [
+            4,
+            2,
+            2
+          ],
+          "reference": {
+            "kind": "VALUE",
+            "value": "1"
+          }
+        },
+        {
+          "candidate": {
+            "kind": "VALUE",
+            "value": "0"
+          },
+          "diverges": true,
+          "inputs": [
+            2,
+            3
+          ],
+          "rank": [
+            5,
+            2,
+            3
+          ],
+          "reference": {
+            "kind": "VALUE",
+            "value": "1"
+          }
+        },
+        {
+          "candidate": {
+            "kind": "VALUE",
+            "value": "1"
+          },
+          "diverges": true,
+          "inputs": [
+            3,
+            2
+          ],
+          "rank": [
+            5,
+            3,
+            2
+          ],
+          "reference": {
+            "kind": "VALUE",
+            "value": "2"
+          }
+        },
+        {
+          "candidate": {
+            "kind": "VALUE",
+            "value": "1"
+          },
+          "diverges": false,
+          "inputs": [
+            3,
+            3
+          ],
+          "rank": [
+            6,
+            3,
+            3
+          ],
+          "reference": {
+            "kind": "VALUE",
+            "value": "1"
+          }
+        },
+        {
+          "candidate": {
+            "kind": "VALUE",
+            "value": "1"
+          },
+          "diverges": true,
+          "inputs": [
+            4,
+            3
+          ],
+          "rank": [
+            7,
+            4,
+            3
+          ],
+          "reference": {
+            "kind": "VALUE",
+            "value": "2"
+          }
+        },
+        {
+          "candidate": {
+            "kind": "VALUE",
+            "value": "2"
+          },
+          "diverges": true,
+          "inputs": [
+            5,
+            2
+          ],
+          "rank": [
+            7,
+            5,
+            2
+          ],
+          "reference": {
+            "kind": "VALUE",
+            "value": "3"
+          }
+        }
+      ],
+      "verdict": "IMPROVED"
+    }
+  ],
+  "reference_hash": "947648964c107dab6b81a9584df05eda7122b5d7a725f216f3c137c2f2bc07e0",
+  "reference_url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/spec-c.json",
+  "sources": [
+    {
+      "expression": [
+        "div",
+        [
+          "add",
+          "x",
+          [
+            "sub",
+            "y",
+            1
+          ]
+        ],
+        "y"
+      ],
+      "sha256": "947648964c107dab6b81a9584df05eda7122b5d7a725f216f3c137c2f2bc07e0",
+      "text": "{\n  \"format\": \"CounterForge-v1\",\n  \"expression\": [\n    \"div\",\n    [\n      \"add\",\n      \"x\",\n      [\n        \"sub\",\n        \"y\",\n        1\n      ]\n    ],\n    \"y\"\n  ]\n}\n",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/spec-c.json"
+    },
+    {
+      "expression": [
+        "div",
+        "x",
+        "y"
+      ],
+      "sha256": "d04a84083edd645cb9ad6f7f01ff478264d8b4fe99d74f2684565a64a58bda9e",
+      "text": "{\n  \"format\": \"CounterForge-v1\",\n  \"expression\": [\n    \"div\",\n    \"x\",\n    \"y\"\n  ]\n}\n",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/build-c.json"
+    }
+  ],
+  "status": "EXHAUSTED_WITH_WITNESS"
+}

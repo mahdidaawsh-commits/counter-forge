@@ -1,0 +1,113 @@
+{
+  "contract": "0xC07e633c37802c774835B656716a30a74295455F",
+  "transaction": "0x41556111c69d570037ef560bad7ccd3fb9fa5fe67dd51de8b8ac76edc7efe9d7",
+  "sender": "0x7aa4f3f14d43cce626788e223c8cc2842e0214c3",
+  "success": true,
+  "reason": null,
+  "method": "discover",
+  "index": 1,
+  "state_before": {
+    "attempts": 1,
+    "best": null,
+    "bounds": [
+      0,
+      1000000000,
+      0,
+      1000000000
+    ],
+    "budget": 2,
+    "candidate_hash": "14b81897e32fbdcdb17f84b9efdda397482ee954dc473a2ef413d52a7f10b381",
+    "candidate_url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/build-d.json",
+    "records": [
+      {
+        "attempt": 0,
+        "caller": "0xf0d223c99c7ac371e2c15ad68ceb1f01925a7d34",
+        "improvement": null,
+        "incumbent": null,
+        "tested": [],
+        "verdict": "NO_VERIFIED_IMPROVEMENT"
+      }
+    ],
+    "reference_hash": "fc4baaa77db67f9a78d58f9f7b8d72e61300a2e22160e35d973b2ec9a7f468e6",
+    "reference_url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/spec-d.json",
+    "sources": [
+      {
+        "expression": [
+          "add",
+          "x",
+          "y"
+        ],
+        "sha256": "fc4baaa77db67f9a78d58f9f7b8d72e61300a2e22160e35d973b2ec9a7f468e6",
+        "text": "{\n  \"format\": \"CounterForge-v1\",\n  \"expression\": [\n    \"add\",\n    \"x\",\n    \"y\"\n  ]\n}\n",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/spec-d.json"
+      },
+      {
+        "expression": [
+          "add",
+          "y",
+          "x"
+        ],
+        "sha256": "14b81897e32fbdcdb17f84b9efdda397482ee954dc473a2ef413d52a7f10b381",
+        "text": "{\n  \"format\": \"CounterForge-v1\",\n  \"expression\": [\n    \"add\",\n    \"y\",\n    \"x\"\n  ]\n}\n",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/build-d.json"
+      }
+    ],
+    "status": "SEARCHING_NO_WITNESS"
+  },
+  "state": {
+    "attempts": 2,
+    "best": null,
+    "bounds": [
+      0,
+      1000000000,
+      0,
+      1000000000
+    ],
+    "budget": 2,
+    "candidate_hash": "14b81897e32fbdcdb17f84b9efdda397482ee954dc473a2ef413d52a7f10b381",
+    "candidate_url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/build-d.json",
+    "records": [
+      {
+        "attempt": 0,
+        "caller": "0xf0d223c99c7ac371e2c15ad68ceb1f01925a7d34",
+        "improvement": null,
+        "incumbent": null,
+        "tested": [],
+        "verdict": "NO_VERIFIED_IMPROVEMENT"
+      },
+      {
+        "attempt": 1,
+        "caller": "0x7aa4f3f14d43cce626788e223c8cc2842e0214c3",
+        "improvement": null,
+        "incumbent": null,
+        "tested": [],
+        "verdict": "NO_VERIFIED_IMPROVEMENT"
+      }
+    ],
+    "reference_hash": "fc4baaa77db67f9a78d58f9f7b8d72e61300a2e22160e35d973b2ec9a7f468e6",
+    "reference_url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/spec-d.json",
+    "sources": [
+      {
+        "expression": [
+          "add",
+          "x",
+          "y"
+        ],
+        "sha256": "fc4baaa77db67f9a78d58f9f7b8d72e61300a2e22160e35d973b2ec9a7f468e6",
+        "text": "{\n  \"format\": \"CounterForge-v1\",\n  \"expression\": [\n    \"add\",\n    \"x\",\n    \"y\"\n  ]\n}\n",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/spec-d.json"
+      },
+      {
+        "expression": [
+          "add",
+          "y",
+          "x"
+        ],
+        "sha256": "14b81897e32fbdcdb17f84b9efdda397482ee954dc473a2ef413d52a7f10b381",
+        "text": "{\n  \"format\": \"CounterForge-v1\",\n  \"expression\": [\n    \"add\",\n    \"y\",\n    \"x\"\n  ]\n}\n",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/counter-forge/75b06c7296be4fbb8e5547fe8ccb7de4e7de18ea/programs/build-d.json"
+      }
+    ],
+    "status": "EXHAUSTED_NO_WITNESS"
+  }
+}

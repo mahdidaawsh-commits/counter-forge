@@ -2,6 +2,8 @@
 
 AI searches for counterexamples. Validators execute the proof.
 
+**StudioNet contract:** `0x9701B7C4C32E583d03c08B92C19209798C6A9577`. [Deployment](https://explorer-studio.genlayer.com/tx/0x3deb51ea858c02356f45df624bf869ce4ac05bc2f385d99e51d291e730866b6c) · [Four comparisons and 13 finalized receipts](proofs/README.md) · [Passing CI: 64 tests](https://github.com/mahdidaawsh-commits/counter-forge/actions/runs/39052813000).
+
 CounterForge is a standalone GenLayer differential-testing notebook for a restricted integer-expression language. A deployment fixes reference/candidate source URLs and SHA-256 hashes, an input rectangle and a bounded search budget. Each search acquires the full pinned sources inside the nondeterministic flow and asks the model for concrete candidate inputs. Validators independently fetch and interpret both sources, then execute them to verify actual divergence and strict improvement over the incumbent.
 
 Unlike a model's claim that code is correct or defective, the result is a source-bound, replayable input/output witness. Candidate inputs are proposed nondeterministically; their consequences are verified exactly. If the leader finds no improvement, validators independently search before accepting that miss. No number of failed searches becomes an equivalence or safety certificate.
@@ -11,8 +13,9 @@ Unlike a model's claim that code is correct or defective, the result is a source
 - [Direct tests and cross-language checks](tests/direct/test_forge.py)
 - [Independent BigInt interpreter](scripts/integer-oracle.cjs)
 - [Small program fixtures](programs)
-- [Onchain proof status](proofs/README.md)
-- [Submission draft](docs/submission.md)
+- [Readable examples and proof interpretation](docs/examples.md)
+- [Verified onchain proofs](proofs/README.md)
+- [Submission text](docs/submission.md)
 
 ```sh
 pip install -r requirements-dev.txt
